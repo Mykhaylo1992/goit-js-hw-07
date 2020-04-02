@@ -9,8 +9,9 @@ const ingredients = [
 ];
 const ingredientItem = document.getElementById('ingredients');
 
-ingredients.forEach((item) => {
+const Allmart = ingredients.map((item) => {
     const listItem = document.createElement('li');
     listItem.textContent = item;
-    ingredientItem.appendChild(listItem);
+    return listItem
 });
+ingredientIte.append(...Allmart);

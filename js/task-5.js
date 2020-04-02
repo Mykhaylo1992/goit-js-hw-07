@@ -9,9 +9,6 @@
 
 const myInput = document.querySelector('#name-input' );
 const mySpan = document.querySelector('#name-output' );
-console.log(myInput);
-console.log(mySpan);
-
 myInput.addEventListener('input', newInput);
 function newInput (e){
 console.log(e.currentTarget);
@@ -23,4 +20,3 @@ if(e.currentTarget.value === ""){
   // console.log(111);
   }
 }
-

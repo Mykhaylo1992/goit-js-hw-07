@@ -20,4 +20,3 @@ alt
 return (`<li><img src = '${url}' alt = '${alt}'></li>`);
 }).join('');
 list.insertAdjacentHTML("afterbegin", element);
-list.classList.add("gallery");
